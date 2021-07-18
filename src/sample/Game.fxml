@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="802.0" prefWidth="1189.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GroundController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="800.0" prefWidth="1200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <ImageView fitHeight="800.0" fitWidth="1200.0">
+               <image>
+                  <Image url="@../image/ground.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="201.0" layoutX="15.0" layoutY="320.0">
+               <image>
+                  <Image url="@../image/kinge.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="111.0" fitWidth="103.0" layoutX="165.0" layoutY="158.0">
+               <image>
+                  <Image url="@../image/are.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="111.0" fitWidth="103.0" layoutX="165.0" layoutY="517.0">
+               <image>
+                  <Image url="@../image/are.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="229.0" fitWidth="208.0" layoutX="804.0" layoutY="278.0">
+               <image>
+                  <Image url="@../image/kingf.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="177.0" fitWidth="166.0" layoutX="719.0" layoutY="507.0">
+               <image>
+                  <Image url="@../image/arf.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="177.0" fitWidth="166.0" layoutX="719.0" layoutY="143.0">
+               <image>
+                  <Image url="@../image/arf.png" />
+               </image>
+            </ImageView>
+            <VBox fx:id="cards" layoutX="1050.0" layoutY="159.0" prefHeight="563.0" prefWidth="142.0" />
+            <Button fx:id="ready" layoutX="765.0" layoutY="102.0" mnemonicParsing="false" onAction="#clickReady" prefHeight="58.0" prefWidth="119.0" style="-fx-background-color: #76e778;" text="Ready" textFill="#009c00" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
