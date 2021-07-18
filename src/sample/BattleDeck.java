@@ -127,6 +127,7 @@ public class BattleDeck {
         }
     }
     public void initialize(){
+
         for (int i = 0; i < 4; i++) {
             ImageView imgv=new ImageView();
             imgv.setFitHeight(90);

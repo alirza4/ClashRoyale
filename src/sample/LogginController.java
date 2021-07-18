@@ -75,6 +75,7 @@ public class LogginController {
                 }
                 System.out.println(pass);
                 if(pass.equals(password.getText())){
+                    System.out.println("1");
                     Main main=new Main();
                     FXMLLoader loader=new FXMLLoader(getClass().getResource("menu1.fxml"));
                     Parent root=loader.load();
@@ -115,7 +116,6 @@ public class LogginController {
            }
         }
     }
-
     public void transst(Stage stage1){
         stage=stage1;
     }
